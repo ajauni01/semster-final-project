@@ -1,0 +1,34 @@
+* {
+  font-family: 'Manrope';
+}
+
+.card {
+  background: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0) 100%);
+  border-radius: 10px;
+}
+
+/* set the height of the card */
+.card {
+  height: 391px !important;
+  width: 267px !important;
+}
+
+/* re-size the images inside the card */
+.card img {
+  width: 135px;
+  height: 213px;
+  margin-top: 10px;
+}
+
+/* set the proper font size for the name of various tea */
+.card-title {
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.featured-products-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  color: #777777;
+  padding: 0 400px 0 400px;
+}
