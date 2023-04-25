@@ -3,6 +3,13 @@
   font-family: 'Manrope';
 }
 
+/* make the nav bar sticking to the top while scrolling through the webpage */
+.navbar {
+  position: sticky;
+  top: 0;
+}
+
+
 /* set the banner image */
 .banner-img {
   width: 1200px;
@@ -38,7 +45,7 @@ ul>li>a:active {
 }
 
 /* re-size the images inside the card */
-.card img {
+.img-product {
   width: 135px;
   height: 213px;
   margin-top: 10px;
@@ -143,4 +150,84 @@ ul>li>a:active {
   font-weight: 500;
   font-size: 16px;
   color: #777777;
+}
+
+/* set the properties to feature the super client */
+.super-client {
+  width: 1140px;
+  height: 650px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+}
+
+/* set properties for the row */
+.row {
+  margin-left: 40px;
+}
+
+.super-client-description {
+  margin: 150px 0 0 0;
+}
+
+.super-client-title {
+  font-weight: 800;
+  font-size: 55px;
+  color: #F4F4F4;
+  margin: 0 100px 20px 0;
+}
+
+.super-client-sub-title {
+  font-weight: 500;
+  font-size: 16px;
+  color: #F4F4F4;
+}
+
+.review-cards {
+  position: relative;
+  margin: 100px 0 0 0;
+}
+
+.img-client {
+  width: 60px;
+  height: 60px;
+  margin: 0 0 10px 170px;
+}
+
+.img-client2 {
+  width: 60px;
+  height: 60px;
+  margin: 0 0 10px 170px;
+  border-radius: 50%;
+
+}
+
+.super-client-card-1 {
+  width: 400px !important;
+  height: 200px !important;
+  background: #FFFFFF;
+  border-radius: 8px;
+  background: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+  background-clip: content-box;
+
+}
+
+.super-client-card-2 {
+  width: 400px !important;
+  height: 200px !important;
+  background: #FFFFFF;
+  border-radius: 8px;
+  background: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+  background-clip: content-box;
+
+}
+
+.super-client-card-3 {
+  position: absolute;
+  left: 90px;
+  top: 170px;
+  width: 400px !important;
+  height: 200px !important;
+  background: #FFFFFF;
+  border-radius: 8px;
 }
