@@ -11,6 +11,8 @@
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
+  <!-- font-awesome-kit -->
+  <script src="https://kit.fontawesome.com/f637325e11.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="bg-success-subtle page-width">
@@ -18,7 +20,7 @@
   <nav class="navbar navbar-expand-lg bg-dark">
     <ul class="navbar-nav mx-auto">
       <li class="nav-item active">
-        <a class="nav-link text-white fs-5" href="index.html">Home</a>
+        <a class="nav-link text-white fs-5" href="index.html" target="_blank">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link text-white fs-5" href="reviews.html">Reviews</a>
@@ -30,7 +32,7 @@
         <a class="nav-link text-white fs-5" href="news.html" target="_blank">News & Events</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white fs-5" href="#">Contact</a>
+        <a class="nav-link text-white fs-5" href="#footer">Contact</a>
       </li>
     </ul>
   </nav>
@@ -137,9 +139,40 @@
       <!-- bootstrap-grid-ends -->
     </div>
     <!-- second-row-ends -->
-
   </section>
   <!-- review-section-ends -->
+  <div class="review-footer-container">
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Subscribe to our newsletter</h3>
+            <form>
+              <input type="email" placeholder="Enter your email">
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <h3>Follow us</h3>
+            <ul class="social-icons">
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+            <h3 class="mt-5">Contact Us</h3>
+            <ul class="contact-info">
+              <li><i class="fas fa-map-marker-alt"></i> 123 Main Street, Anytown USA</li>
+              <li><i class="fas fa-phone"></i> (555) 555-5555</li>
+              <li><i class="fas fa-envelope"></i> info@yourwebsite.com</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer-ends -->
+  </div>
+  <!-- review-footer-container-ends -->
 
   <!-- bootstrap-js -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
