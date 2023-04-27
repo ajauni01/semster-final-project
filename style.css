@@ -248,3 +248,83 @@ ul>li>a:active {
 .second-row {
   margin-top: 500px;
 }
+
+/* add style to footer */
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+form {
+  display: flex;
+}
+
+input[type="email"] {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #d32f2f;
+}
+
+.social-icons {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.social-icons a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #222;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.social-icons a:hover {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.contact-info {
+  list-style-type: none;
+}
