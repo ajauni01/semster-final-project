@@ -155,7 +155,6 @@ ul>li>a:active {
   width: 1140px;
   height: 650px;
   border-radius: 10px;
-  border: 2px solid black;
   background: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
 }
 
